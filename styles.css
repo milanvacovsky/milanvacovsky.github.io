@@ -1,0 +1,40 @@
+.container{
+  padding: 1.2rem 3rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+.column {
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row{
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+th, td{
+  min-width: 65px;
+  text-align: center;
+}
+.map-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+iframe[name=map]{
+  height: 500px;
+  width: 80vw;
+}
